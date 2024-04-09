@@ -1,0 +1,13 @@
+/* Estilos para la nueva barra lateral derecha */
+.right-sidebar {
+    background-color: #eee;
+    padding: 20px;
+    flex-basis: 300px;
+    /* Ancho de la barra lateral derecha */
+}
+
+/* Ajusta los estilos del contenido principal para dar espacio a la nueva barra lateral */
+main {
+    flex: 1 0 auto;
+    /* Permite que el contenido principal crezca según sea necesario, pero no se encogerá. */
+}
